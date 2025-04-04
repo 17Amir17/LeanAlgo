@@ -8,7 +8,8 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "pydantic (>=2.11.2,<3.0.0)"
+    "pydantic (>=2.11.2,<3.0.0)",
+    "quantconnect-lean (>=0.1.0,<0.2.0)"
 ]
 package-mode = false
 
