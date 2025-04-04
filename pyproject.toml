@@ -1,0 +1,19 @@
+[project]
+name = "leanalgo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Amir Angel",email = "36531255+17Amir17@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+]
+package-mode = false
+
+[project.scripts]
+leanalgo = "leanalgo.main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
