@@ -1,6 +1,6 @@
 # LeanAlgo
 
-A Python project managed with Poetry.
+A Python project managed with Poetry, using Pydantic for data validation and typing.
 
 ## Setup
 
@@ -21,7 +21,6 @@ After setting up the environment, you can run the application using:
 # Run directly with Python
 python -m leanalgo.main
 
-# Or use the installed entry point (after installing with --no-root)
-poetry install
+# Or use the installed entry point
 poetry run leanalgo
 ```
